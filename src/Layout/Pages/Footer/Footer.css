@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Footer{
+    width: 100%;
+    background-color: black;
+padding-top: 7rem ;
+display: flex;
+justify-content: center;
+}
+.Footerbox{
+    width: 80rem;
+    height: 30rem;
+/* border: 0.1rem solid red; */
+}
+#num{
+    font-size: 1.6rem;
+    color: grey;
+    font-weight: 300;
+}
+#num1{
+    font-size: 1.6rem;
+    color: grey;
+    cursor: pointer; 
+}
+.links{
+    width: 80rem;
+    height: 13rem;
+    /* border: 0.1rem solid red; */
+    margin-top: 1rem;
+}
+ul{
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+}
+#link{
+    font-size: 1.6rem;
+    color: grey;
+    width: 18rem;
+    margin-bottom: .6rem;
+    /* border: 0.1rem solid red; */
+}
+
+#lastbtn{
+    margin-top: 1rem;
+    width: 14rem;
+    height: 4.5rem;
+    border: 0.1rem solid grey;
+    color: grey;
+    font-size: 2rem;
+    background-color: black;
+}
+#last{
+    font-size: 1.6rem;
+    color: #737373;
+    font-weight: 400;
+    margin-top: 2rem;
+}

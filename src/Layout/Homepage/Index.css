@@ -1,0 +1,94 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.main {
+  /* background-color: black; */
+  background-image: url("../../Assets/netflixbckgrndimg.jpg");
+border-bottom: 0.8rem solid #222;
+/* opacity: 0.6; */
+}
+.Navbar {
+  /* border: 0.1rem solid red; */
+  display: flex;
+  padding: 0rem 2rem 2rem 3rem ;
+
+}
+.btns {
+  /* border: 0.1rem solid red; */
+  margin-left: 86rem;
+  padding-top: 2rem;
+}
+#btn1 {
+  width: 9rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  background-color: black;
+  color: white;
+  border: 0.1rem solid white;
+}
+#btn2 {
+  width: 9rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: red;
+  margin-left: 3rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.body{
+    width: 80%;
+    height: 45rem;
+margin-top: 12rem;
+    margin-left: 13rem;
+    /* border: 0.1rem solid red; */
+}
+#line1{
+    color: white;
+    font-size: 5rem;
+/* border: 0.1rem solid green; */
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+}
+#line2{
+    color: white;
+    font-size: 2rem;
+/* border: 0.1rem solid green; */
+text-align: center;
+
+}
+#line3{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.inputbox{
+    width: 100%;
+    /* border: 0.1rem solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#inputfield{
+    width: 50rem;
+    height: 7rem;
+    /* border: 0.1rem solid red; */
+    font-size: 1.6rem;
+padding-left: 1rem;
+}
+#inputbtn{
+    width: 25rem;
+    height: 7rem;
+    font-size: 3rem;
+    color: white;
+    background-color: red;
+    border: 0.1rem solid red;
+}
