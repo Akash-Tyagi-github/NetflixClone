@@ -1,0 +1,82 @@
+.form{
+    /* border: 0.2rem solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    height: 38rem;
+    background-color: black;
+    
+}
+#signinheading{
+    font-size: 3.2rem;
+    color: white;
+    margin-bottom: 2.4rem;
+}
+.inputs{
+    height: 8rem;
+    border-bottom: 1rem;
+    /* border: 0.1rem solid green; */
+}
+#email,#password{
+    width: 32rem;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+/* border: 0.2rem solid red; */
+font-size: 1.6rem;
+padding-left: 1rem;
+}
+#errormesg{
+ 
+        margin-left:1rem;
+        font-size:1rem;
+        color:red
+}
+#formbtn{
+    width:32rem;
+    height: 5rem;
+    padding: 1.6rem;
+    margin-top: 2.4rem;
+    margin-bottom: 1.2rem;
+    background-color: red;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+#remember{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 0.1rem solid black;
+}
+.ticker{
+    display: flex;
+}
+#ticker1,#hlp{
+    font-size: 1.3rem;
+    color: #b3b3b3;
+}
+.detail{
+    background-color: black;
+    width: 32rem;
+    margin-top: 6rem;
+}
+#hlp{
+    margin-left:12rem ;
+}
+#one{
+    font-size: 1.6rem;
+    color: #737373;
+font-weight: 600;
+}
+#two{
+    font-size: 1.6rem;
+    font-weight: 700;
+
+color: white;}
+
+#three{
+    color: #8c8c8c;
+    font-size: 1.3rem;
+}

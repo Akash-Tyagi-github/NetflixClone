@@ -2,14 +2,18 @@ import React from 'react'
 import netflixlogo from "../../Assets/netflixlogo.png"
 import bckimg from "../../Assets/netflixbckgrndimg.jpg"
 import "./Index.css"
+import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <div className='main'>
-     <div className='Navbar'>
+     <div className='Navbar1'>
         <img src={netflixlogo} style={{width:"200px",height:"80px"}}/>
         <div className='btns'>
            <button id="btn1">English</button>
-           <button id="btn2">Sign In</button>
+           <Link to="/login">  <button id="btn2">
+            Sign In
+           </button>
+            </Link>
         </div>
      </div>
      <div className='body'>

@@ -1,0 +1,12 @@
+.main1 {
+  background-image: url("../../Assets/netflixbckgrndimg.jpg");
+}
+.forms{
+    width: 44rem;
+    height: 60rem;
+    padding: 5rem 6rem 5rem 6rem;
+    /* border: 0.1rem solid red; */
+    background-color: black;
+    opacity: 0.8;
+    margin-left: 42rem;
+}

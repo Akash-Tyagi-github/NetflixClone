@@ -9,16 +9,19 @@
 border-bottom: 0.8rem solid #222;
 /* opacity: 0.6; */
 }
-.Navbar {
+.Navbar1 {
   /* border: 0.1rem solid red; */
-  display: flex;
   padding: 0rem 2rem 2rem 3rem ;
 
 }
 .btns {
-  /* border: 0.1rem solid red; */
-  margin-left: 86rem;
-  padding-top: 2rem;
+  /* border: 0.1rem solid red;  */
+  position: absolute;
+  top: 2rem;
+  left: 105rem;
+
+   /* margin-left: 86rem;  */
+  /* padding-top: 2rem; */
 }
 #btn1 {
   width: 9rem;

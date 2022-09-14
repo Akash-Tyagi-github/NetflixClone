@@ -2,9 +2,17 @@ import React, { useState } from "react";
 import questions from "../../../Assets/QandAbank";
 import "./FAQ.css";
 const FAQ = () => {
-  const [change,setChange]=useState(true);
-  const display=()=>{
-      setChange(!change)
+  // const [change,setChange]=useState(true);
+  const [Num,setNum]=useState(-1);
+  // const display=()=>{
+  //     setChange(!change)
+  // }
+  const display1=(id)=>{
+    if(Num==id){
+      setNum(-1);
+    } else {
+      setNum(id);
+    }
   }
   return (
     <div className="FAQ">
@@ -17,12 +25,12 @@ const FAQ = () => {
             <div className="questions">
               <div className="question1">
                 <h1 id="ques">{ques.ques}</h1>
-                <button id="plusbtn" onClick={display}>
+                <button id="plusbtn" onClick={()=>{display1(index)}}>
                   +
                 </button>
               </div>
             </div>
-            <div className={change ? `hide` : `display`}>
+            <div className={Num==index ? `display`:`hide`  }>
               <h1 id="answercontent">{ques.ans}</h1>
             </div>
           </div>
